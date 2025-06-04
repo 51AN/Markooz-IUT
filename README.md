@@ -1,66 +1,126 @@
 # Markooz-IUT
-### Project for SPL-II, (SWE-4404)
- 
-> Introduction 
 
-This repository contains our project of SPL-II. The project is mandatory for the course SWE-4404 of the Software Engineering program at Islamic University of Technology.
-
-The project is regarding a e-commerce website tailored for the people related to IUT. 
+![Landing Page](./assets/markooz%20landing%20page.png)
 
 
-### Contributors to this project :
-
-[Sian Ashsad](https://www.github.com/51AN)
-
-[Rhidwan Rashid Dihan](https://www.github.com/dihan141)
-
-[M M Nazmul Hossain](https://www.github.com/nazmul4532)
-
-[Md. Shihab Shahriar]() (Supervisor)
+**Markooz-IUT** is an e-commerce platform tailored for the IUT community. It comes with an in-built market analysis tool for demand analysis ahead of a product release.
+Developed as part of the **SPL-II (SWE-4404)** course at the **Islamic University of Technology**, this project aims to facilitate seamless buying and selling among students, faculty, and staff.
 
 
-> How to run the project
+## 📸 Screenshots
+
+Here are some previews of the Markooz-IUT platform in action:
+
+### 🛒 Product Listing
+
+![Product Listing](./assets/markooz%20products.png)
+
+---
+
+### 🧾 Product Details
+
+![Product Details](./assets/markooz%20product%20details.png)
+
+![Product Details](./assets/markooz%20product%20details%202.png)
+
+---
+
+### ⭐ Product Reviews
+
+![Product Reviews](./assets/Markooz%20product%20reviews.png)
+
+---
+
+### 📦 Order Management
+
+![Order Management](./assets/markooz%20order%20management.png)
+
+---
+
+### 🧑‍💼 Merchant Landing Page
+
+![Merchant landing](./assets/markooz%20merchent%20view.png)
+
+---
+
+### 📊 Merchant Dashboard
+
+![Merchant Dashboard](./assets/markooz%20merchent%20dashboard.png)
+
+---
+
+### 🗳️ Poll System
+
+![Poll System](./assets/markooz%20polling%20system.png)
+
+---
+
+## 👥 Contributors
+
+- [Sian Ashsad](https://github.com/51AN)
+- [Rhidwan Rashid Dihan](https://github.com/Dihan141)
+- [M M Nazmul Hossain](https://github.com/nazmul4532)
+
+## 📁 Project Structure
+
+```bash
+Markooz-IUT/
+├── backend/ # Express.js server and API routes
+├── frontend/ # React.js client application
+├── socket/ # Real-time communication setup
+├── assets/ # Static assets (images, icons, etc.)
+├── .gitignore
+├── LICENSE
+└── README.md
+```
 
 
-## Available Scripts
+## 🛠️ Getting Started
 
-In the project directory, you can run:
+### Prerequisites
 
-### `npm run-script dev`
+Make sure you have the following installed before running the project:
 
-Runs both the client app and the server app in development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view the client in the browser.
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+- [MongoDB](https://www.mongodb.com/)
 
-### `npm run-script client`
+### Installations
 
-Runs just the client app in development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view the client in the browser.
+Clone the repository and navigate into the project directory:
+
+```bash
+git clone https://github.com/Dihan141/Markooz-IUT.git
+cd Markooz-IUT
+```
+
+Install socket dependencies and start server
+
+```bash
+cd socket
+npm install
+npm start
+```
+
+Install backend dependencies and start server
+
+```bash
+cd backend
+npm install
+npm start
+```
+
+Install frontend dependencies and start frontend
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+## 📝 License
+
+This project is licensed under the [MIT License](LICENSE).
 
 
-### `npm run-script server`
 
-Runs just the server in development mode.<br>
-
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-If deploying to heroku this does not need to be run since it is handled by the heroku-postbuild script<br>
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn how to setup a local MongoDB instance for testing, check out how to [Connect to MongoDB](https://docs.mongodb.com/guides/server/drivers/).
-
-To learn how to deploy a full-stack web app to heroku, check out [this great guide](https://daveceddia.com/deploy-react-express-app-heroku/).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
